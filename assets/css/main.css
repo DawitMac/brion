@@ -10363,6 +10363,7 @@ START: Sidebar CSS
 }
 .side-menu-social li {
   display: inline-flex;
+ 
 }
 .side-menu-social li:not(:last-of-type) {
   margin-right: 10px;
