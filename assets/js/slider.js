@@ -7,7 +7,7 @@
                 var $this = $(this);
                 var $animationDelay = $this.data("delay");
                 var $animationDuration = $this.data("duration");
-                var $animationType = "runok-animation " + $this.data("animation");
+                var $animationType = "brion-animation " + $this.data("animation");
                 $this.css({
                     "animation-delay": $animationDelay,
                     "-webkit-animation-delay": $animationDelay,
@@ -35,7 +35,7 @@
                 prevEl: ".slider-arrow .slider-prev",
             },
             pagination: {
-                el: ".runok-swiper-pagination",
+                el: ".brion-swiper-pagination",
                 clickable: true,
             },
         };
@@ -51,7 +51,7 @@
             },
         };
 
-        var swiper = new Swiper(".runok-slider-2", sliderOptions);
+        var swiper = new Swiper(".brion-slider-2", sliderOptions);
 
 
         // Slider 1
@@ -93,7 +93,7 @@
             },
         };
 
-        var swiper2 = new Swiper(".runok-slider", slider2Options);
+        var swiper2 = new Swiper(".brion-slider", slider2Options);
 
         
     });

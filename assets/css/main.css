@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Runok - Web Agency HTML5 Template
+    Template Name: brion - Web Agency HTML5 Template
     Author: RRDevs
     Support: rubelmah55@gmail.com
-    Description: Runok - Web Agency HTML5 Template
+    Description: brion - Web Agency HTML5 Template
     Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -12640,27 +12640,27 @@ blockquote .content .author:before {
   padding: 0 15px;
 }
 
-.runok-accordion-2 {
+.brion-accordion-2 {
   writing-mode: vertical-rl;
   height: 700px;
 }
-.runok-accordion-2 .accordion-item {
+.brion-accordion-2 .accordion-item {
   background-color: var(--rr-color-bg-1);
   border: none;
 }
-.runok-accordion-2 .accordion-item .accordion-button {
+.brion-accordion-2 .accordion-item .accordion-button {
   height: 100%;
 }
-.runok-accordion-2 .accordion-item .accordion-body {
+.brion-accordion-2 .accordion-item .accordion-body {
   background-color: var(--rr-color-bg-1);
 }
-.runok-accordion-2 .accordion-item .accordion-body .accordion-img {
+.brion-accordion-2 .accordion-item .accordion-body .accordion-img {
   max-width: 580px;
   width: 100%;
   height: 540px;
   margin: auto;
 }
-.runok-accordion-2 .accordion-item .accordion-body .accordion-img img {
+.brion-accordion-2 .accordion-item .accordion-body .accordion-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -12690,7 +12690,7 @@ START: Theme Slider CSS
   }
 }
 
-.runok-slider {
+.brion-slider {
   position: relative;
   z-index: 2;
 }
@@ -12820,7 +12820,7 @@ START: Theme Slider CSS
   color: var(--rr-color-theme-primary);
 }
 
-.runok-swiper-pagination {
+.brion-swiper-pagination {
   height: 100%;
   width: auto !important;
   position: absolute;
@@ -12830,16 +12830,16 @@ START: Theme Slider CSS
   z-index: 2;
 }
 @media (max-width: 1399px) {
-  .runok-swiper-pagination {
+  .brion-swiper-pagination {
     left: 25px !important;
   }
 }
 @media (max-width: 1250px) {
-  .runok-swiper-pagination {
+  .brion-swiper-pagination {
     display: none;
   }
 }
-.runok-swiper-pagination .swiper-pagination-bullet {
+.brion-swiper-pagination .swiper-pagination-bullet {
   background-color: transparent;
   width: 20px;
   height: 20px;
@@ -12848,10 +12848,10 @@ START: Theme Slider CSS
   opacity: 1;
   display: block;
 }
-.runok-swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.brion-swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
   border: 1px solid var(--rr-color-common-white);
 }
-.runok-swiper-pagination .swiper-pagination-bullet:before {
+.brion-swiper-pagination .swiper-pagination-bullet:before {
   content: "";
   background-color: var(--rr-color-common-white);
   width: 5px;
@@ -12863,42 +12863,42 @@ START: Theme Slider CSS
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.runok-swiper-pagination .swiper-pagination-bullet:not(:last-of-type) {
+.brion-swiper-pagination .swiper-pagination-bullet:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
-.runok-slider-2 .slider-item .overlay {
+.brion-slider-2 .slider-item .overlay {
   background: #11151C;
   mix-blend-mode: multiply;
   opacity: 0.72;
 }
-.runok-slider-2 .slider-item .slider-content {
+.brion-slider-2 .slider-item .slider-content {
   margin-top: 180px;
   max-width: 660px;
   width: 100%;
 }
 @media (max-width: 1700px) {
-  .runok-slider-2 .slider-item .slider-content {
+  .brion-slider-2 .slider-item .slider-content {
     margin-left: 150px;
   }
 }
 @media (max-width: 1600px) {
-  .runok-slider-2 .slider-item .slider-content {
+  .brion-slider-2 .slider-item .slider-content {
     margin-left: 200px;
   }
 }
 @media only screen and (max-width: 992px) {
-  .runok-slider-2 .slider-item .slider-content {
+  .brion-slider-2 .slider-item .slider-content {
     margin-top: 0;
     margin-left: 0;
   }
 }
-.runok-slider-2 .slider-item .slider-content .section-heading {
+.brion-slider-2 .slider-item .slider-content .section-heading {
   padding-bottom: 40px;
   margin-bottom: 50px;
   position: relative;
 }
-.runok-slider-2 .slider-item .slider-content .section-heading .border-line {
+.brion-slider-2 .slider-item .slider-content .section-heading .border-line {
   background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   height: 1px;
@@ -12906,11 +12906,11 @@ START: Theme Slider CSS
   bottom: 0;
   left: 0;
 }
-.runok-slider-2 .slider-item .slider-content .section-heading .sub-heading {
+.brion-slider-2 .slider-item .slider-content .section-heading .sub-heading {
   color: var(--rr-color-common-white);
   padding-left: 50px;
 }
-.runok-slider-2 .slider-item .slider-content .section-heading .sub-heading:before {
+.brion-slider-2 .slider-item .slider-content .section-heading .sub-heading:before {
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
   width: 37px;
@@ -12926,36 +12926,36 @@ START: Theme Slider CSS
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.runok-slider-2 .slider-item .slider-content .section-heading .section-title {
+.brion-slider-2 .slider-item .slider-content .section-heading .section-title {
   font-size: 60px;
   margin-left: 0;
 }
 @media only screen and (max-width: 767px) {
-  .runok-slider-2 .slider-item .slider-content .section-heading .section-title {
+  .brion-slider-2 .slider-item .slider-content .section-heading .section-title {
     font-size: 27px;
   }
 }
-.runok-slider-2 .slider-item .slider-content .slider-btn-wrap {
+.brion-slider-2 .slider-item .slider-content .slider-btn-wrap {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 30px;
 }
-.runok-slider-2 .slider-item .slider-content .slider-btn-wrap .slider-text-btn {
+.brion-slider-2 .slider-item .slider-content .slider-btn-wrap .slider-text-btn {
   color: var(--rr-color-common-white);
   font-size: 16px;
   font-weight: 600;
 }
-.runok-slider-2 .slider-item .slider-content .slider-btn-wrap .slider-text-btn:hover {
+.brion-slider-2 .slider-item .slider-content .slider-btn-wrap .slider-text-btn:hover {
   color: var(--rr-color-theme-primary);
 }
 @media only screen and (max-width: 992px) {
-  .runok-slider-2 .slider-arrow {
+  .brion-slider-2 .slider-arrow {
     display: none;
   }
 }
-.runok-slider-2 .slider-arrow .slider-nav {
+.brion-slider-2 .slider-arrow .slider-nav {
   background: rgba(0, 0, 0, 0.22);
   backdrop-filter: blur(3.5px);
   color: var(--rr-color-common-white);
@@ -12972,33 +12972,33 @@ START: Theme Slider CSS
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 @media (max-width: 1700px) {
-  .runok-slider-2 .slider-arrow .slider-nav {
+  .brion-slider-2 .slider-arrow .slider-nav {
     left: 50px;
   }
 }
-.runok-slider-2 .slider-arrow .slider-nav.slider-next {
+.brion-slider-2 .slider-arrow .slider-nav.slider-next {
   left: auto;
   right: 100px;
 }
 @media (max-width: 1700px) {
-  .runok-slider-2 .slider-arrow .slider-nav.slider-next {
+  .brion-slider-2 .slider-arrow .slider-nav.slider-next {
     right: 50px;
   }
 }
 
 /* Text Animation */
-.runok-animation,
-.runok-animation span {
+.brion-animation,
+.brion-animation span {
   animation-duration: 0.3s;
   animation-fill-mode: both;
 }
 
-.runok-animation span {
+.brion-animation span {
   display: inline-block;
 }
 
 /* Fade Effect */
-.runok-fadeIn {
+.brion-fadeIn {
   animation-name: asFadeIn;
 }
 
@@ -13010,7 +13010,7 @@ START: Theme Slider CSS
     opacity: 1;
   }
 }
-.runok-fadeInLeft {
+.brion-fadeInLeft {
   animation-name: asFadeInLeft;
 }
 
@@ -13023,7 +13023,7 @@ START: Theme Slider CSS
     opacity: 1;
   }
 }
-.runok-fadeInRight {
+.brion-fadeInRight {
   animation-name: asFadeInRight;
 }
 
@@ -13036,7 +13036,7 @@ START: Theme Slider CSS
     opacity: 1;
   }
 }
-.runok-fadeInDown {
+.brion-fadeInDown {
   animation-name: asFadeInTop;
 }
 
@@ -13049,7 +13049,7 @@ START: Theme Slider CSS
     opacity: 1;
   }
 }
-.runok-fadeInUp {
+.brion-fadeInUp {
   animation-name: asFadeInBottom;
 }
 
@@ -13063,7 +13063,7 @@ START: Theme Slider CSS
   }
 }
 /* Move From Effect */
-.runok-moveFromLeft {
+.brion-moveFromLeft {
   animation-name: asMoveFromLeft;
 }
 
@@ -13076,7 +13076,7 @@ START: Theme Slider CSS
     visibility: visible;
   }
 }
-.runok-moveFromRight {
+.brion-moveFromRight {
   animation-name: asMoveFromRight;
 }
 
@@ -13089,7 +13089,7 @@ START: Theme Slider CSS
     visibility: visible;
   }
 }
-.runok-moveFromTop {
+.brion-moveFromTop {
   animation-name: asMoveFromTop;
 }
 
@@ -13102,7 +13102,7 @@ START: Theme Slider CSS
     visibility: visible;
   }
 }
-.runok-moveFromBottom {
+.brion-moveFromBottom {
   animation-name: asMoveFromBottom;
 }
 
@@ -13116,7 +13116,7 @@ START: Theme Slider CSS
   }
 }
 /* Blur Effect */
-.runok-blurIn {
+.brion-blurIn {
   animation-name: asBlurIn;
 }
 
@@ -13126,7 +13126,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-blurInLeft {
+.brion-blurInLeft {
   animation-name: asBlurInLeft;
 }
 
@@ -13137,7 +13137,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-blurInRight {
+.brion-blurInRight {
   animation-name: asBlurInRight;
 }
 
@@ -13148,7 +13148,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-blurInTop {
+.brion-blurInTop {
   animation-name: asBlurInTop;
 }
 
@@ -13159,7 +13159,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-blurInBottom {
+.brion-blurInBottom {
   animation-name: asBlurInBottom;
 }
 
@@ -13171,7 +13171,7 @@ START: Theme Slider CSS
   }
 }
 /* Zoom Effect */
-.runok-zoomIn {
+.brion-zoomIn {
   animation-name: asZoomIn;
 }
 
@@ -13181,7 +13181,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-zoomInLeft {
+.brion-zoomInLeft {
   animation-name: asZoomInLeft;
 }
 
@@ -13191,7 +13191,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-zoomInRight {
+.brion-zoomInRight {
   animation-name: asZoomInRight;
 }
 
@@ -13201,7 +13201,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-zoomInTop {
+.brion-zoomInTop {
   animation-name: asZoomInTop;
 }
 
@@ -13211,7 +13211,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-zoomInBottom {
+.brion-zoomInBottom {
   animation-name: asZoomInBottom;
 }
 
@@ -13222,7 +13222,7 @@ START: Theme Slider CSS
   }
 }
 /* Flip Effect */
-.runok-flipInTop {
+.brion-flipInTop {
   animation-name: asFlipInTop;
 }
 
@@ -13240,7 +13240,7 @@ START: Theme Slider CSS
     transform: perspective(600px);
   }
 }
-.runok-flipInBottom {
+.brion-flipInBottom {
   animation-name: asFlipInBottom;
 }
 
@@ -13259,7 +13259,7 @@ START: Theme Slider CSS
   }
 }
 /* Roll Effect */
-.runok-rollFromLeft {
+.brion-rollFromLeft {
   animation-name: asRollFromLeft;
 }
 
@@ -13269,7 +13269,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-rollFromRight {
+.brion-rollFromRight {
   animation-name: asRollFromRight;
 }
 
@@ -13279,7 +13279,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-rollFromTop {
+.brion-rollFromTop {
   animation-name: asRollFromTop;
 }
 
@@ -13289,7 +13289,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-rollFromBottom {
+.brion-rollFromBottom {
   animation-name: asRollFromBottom;
 }
 
@@ -13300,7 +13300,7 @@ START: Theme Slider CSS
   }
 }
 /* Rotate Skate Effect */
-.runok-rotateSkateInRight {
+.brion-rotateSkateInRight {
   animation-name: asRotateSkateInRight;
 }
 
@@ -13310,7 +13310,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-rotateSkateInLeft {
+.brion-rotateSkateInLeft {
   animation-name: asRotateSkateInLeft;
 }
 
@@ -13320,7 +13320,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-rotateSkateInTop {
+.brion-rotateSkateInTop {
   animation-name: asRotateSkateInTop;
 }
 
@@ -13330,7 +13330,7 @@ START: Theme Slider CSS
     opacity: 0;
   }
 }
-.runok-rotateSkateInBottom {
+.brion-rotateSkateInBottom {
   animation-name: asRotateSkateInBottom;
 }
 
@@ -13341,7 +13341,7 @@ START: Theme Slider CSS
   }
 }
 /* PopUp Effect */
-.runok-popUp {
+.brion-popUp {
   animation-name: asPopUp;
 }
 
@@ -13354,7 +13354,7 @@ START: Theme Slider CSS
     visibility: visible;
   }
 }
-.runok-popUpLeft {
+.brion-popUpLeft {
   animation-name: asPopUpLeft;
 }
 
@@ -13368,7 +13368,7 @@ START: Theme Slider CSS
     animation-timing-function: ease-in;
   }
 }
-.runok-popUpRight {
+.brion-popUpRight {
   animation-name: asPopUpRight;
 }
 
@@ -15361,14 +15361,14 @@ z-index: -1;
   background-color: transparent;
   border: none;
 }
-[data-theme=light] .runok-slider .slider-item .hero-content .bottom-title,
-[data-theme=light] .runok-slider .slider-item .hero-content .sub-title {
+[data-theme=light] .brion-slider .slider-item .hero-content .bottom-title,
+[data-theme=light] .brion-slider .slider-item .hero-content .sub-title {
   color: var(--rr-color-common-white);
 }
-[data-theme=light] .runok-slider .slider-item .hero-content .title {
+[data-theme=light] .brion-slider .slider-item .hero-content .title {
   color: var(--rr-color-common-white);
 }
-[data-theme=light] .runok-slider .slider-item .hero-content .title:before {
+[data-theme=light] .brion-slider .slider-item .hero-content .title:before {
   display: block;
 }
 [data-theme=light] .about-content-6 .section-heading {
@@ -15441,7 +15441,7 @@ z-index: -1;
 [data-theme=light] .header-6 .primary-header.fixed {
   background-color: var(--rr-color-bg-1);
 }
-[data-theme=light] .runok-slider-2 .slider-item .slider-content .section-heading .section-title {
+[data-theme=light] .brion-slider-2 .slider-item .slider-content .section-heading .section-title {
   color: var(--rr-color-common-white);
 }
 [data-theme=light] .process-section-3 {
