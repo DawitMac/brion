@@ -3006,9 +3006,10 @@ START: Header CSS
     column-gap: 20px;
   }
 }
-.header .primary-header-inner .header-right-wrap .header-right {
+.header .primary-header-inner .header-right-wrap .header-menu-wrap .header-right {
   display: flex;
   align-items: center;
+  padding-left: 20px;
 }
 @media only screen and (max-width: 767px) {
   .header .primary-header-inner .header-right-wrap .header-right .header-logo img {
@@ -8553,7 +8554,7 @@ START: Sponsor CSS
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100%;
+  height: 60dvh;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -8585,8 +8586,13 @@ START: Sponsor CSS
   left: 0;
 }
 .page-header .page-header-content {
-  padding: 310px 0 190px;
-  position: relative;
+  padding: 210px 0 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+  height: 100%;
   z-index: 2;
 }
 @media only screen and (max-width: 992px) {
