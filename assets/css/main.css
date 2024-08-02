@@ -10392,11 +10392,13 @@ START: Sidebar CSS
   height: 500px;
   width: 100%;
   margin-bottom: 40px;
+  
 }
 .service-details-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  
 }
 
 .service-details-content .title {
@@ -10423,7 +10425,7 @@ START: Sidebar CSS
 .service-details-content .service-details-items .service-details-item {
   background-color: var(--rr-color-bg-1);
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr 100px;
   grid-gap: 30px;
   padding: 30px;
   border: 1px solid var(--rr-color-border-1);
@@ -15479,3 +15481,14 @@ z-index: -1;
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
+

@@ -104,9 +104,9 @@
                 $(window).on("scroll", function () {
                     var scroll = $(window).scrollTop();
                     if (scroll >= 10) {
-                        header.addClass("fixed");
+                        header.addClass("block");
                     } else {
-                        header.removeClass("fixed");
+                        header.removeClass("block");
                     }
                 });
             }
