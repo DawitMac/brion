@@ -15535,6 +15535,22 @@ z-index: -1;
   white-space: nowrap;
 }
 
+.serv-content p{
+  all: initial;
+  color: var(--rr-color-common-white);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  font-family: var(--rr-ff-heading);
+}
+[data-theme=light] .serv-content p{
+  all: initial;
+  color: var(--rr-color-heading-primary);
+  font-size: 20px;
+  font-weight: 520;
+  line-height: 1;
+  font-family: var(--rr-ff-heading);
+}
 /*# sourceMappingURL=main.css.map */
 
 
