@@ -5840,6 +5840,41 @@ START: About CSS
     padding-right: 0;
   }
 }
+.service-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content:  space-between;
+  width: 100dvw;
+}
+.service-tab .nav-tabs {
+  margin-bottom: 40px;
+  border: none;
+  row-gap: 20px;
+  width: 30%;
+}
+.service-tab .nav-tabs .nav-link {
+  background-color: var(--rr-color-bg-1);
+  color: var(--rr-color-common-white);
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 12px 25px;
+}
+.service-tab .nav-tabs .nav-link:not(:last-of-type) {
+  margin-right: 20px;
+}
+.service-tab .nav-tabs .nav-link.active {
+  background-color: var(--rr-color-theme-primary);
+  color: var(--rr-color-common-white);
+}
+.service-tab .tab-content .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
 
 .about-tab .nav-tabs {
   margin-bottom: 40px;
@@ -9680,7 +9715,7 @@ START: Cta CSS
   animation-fill-mode: both;
   transition: all 0.8s ease-in-out;
   transition-duration: 2000ms;
-  animation-delay: 0.1s;
+  animation-delay: 0.3s;
 }
 
 .pricing-item {
@@ -10389,7 +10424,7 @@ START: Sidebar CSS
 }
 
 .service-details-img {
-  height: 500px;
+  height: 400px;
   width: 100%;
   margin-bottom: 40px;
   
@@ -10397,7 +10432,7 @@ START: Sidebar CSS
 .service-details-img img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   
 }
 
@@ -11927,7 +11962,17 @@ blockquote .content .author:before {
 .tab-content .tab-pane {
   margin-top: 40px;
 }
-
+.service-tab {
+  width : 50%;
+}
+.service-content .title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.service-content .tab-pane {
+  margin-top: 40px;
+}
 .description-meta {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -15478,6 +15523,16 @@ z-index: -1;
 }
 [data-theme=light] .contact-content .contact-list .list-item:hover .icon {
   background-color: var(--rr-color-theme-primary);
+}
+.service-widget .nav-tabs{
+  width: 100%;
+}
+.service-widget .nav-tabs .nav-link {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  padding: 10px 35px;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=main.css.map */
