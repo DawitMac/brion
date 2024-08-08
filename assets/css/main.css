@@ -5889,8 +5889,9 @@ START: About CSS
   border-radius: 0;
   font-size: 16px;
   font-weight: 600;
-  line-height: 1;
+  line-height: 1.5;
   padding: 12px 25px;
+ 
 }
 .about-tab .nav-tabs .nav-link:not(:last-of-type) {
   margin-right: 20px;
@@ -8579,7 +8580,7 @@ START: Sponsor CSS
   overflow: hidden;
 }
 .page-header .overlay {
-  background-color: rgba(2, 5, 10, 0.8);
+  background-color: rgba(2, 5, 10, 0.7);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -8634,7 +8635,7 @@ START: Sponsor CSS
   }
 }
 .page-header .page-header-content .title:before {
-  background: linear-gradient(270deg, #E76A34 0%, transparent 100%);
+  /* background: linear-gradient(270deg, #E76A34 0%, transparent 100%); */
   content: "";
   width: 100%;
   height: 76%;
@@ -15551,6 +15552,64 @@ z-index: -1;
   line-height: 1;
   font-family: var(--rr-ff-heading);
 }
+.serv-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding-left: 20px;
+}
+.serv-1 .footer-list p{
+  padding-left: 30px;
+  line-height: 1.2;
+  margin-top: 5px;
+  font-size: 18px;
+}
+[data-theme=light] .serv-1 p {
+  color: var(--rr-color-heading-primary);
+  font-size: 18px;
+  font-weight: 520;
+  line-height: 1.2;
+  font-family: var(--rr-ff-heading);
+}
+.serv-1 .footer-list li{
+  position: relative;
+  padding-left: 30px;
+  color: var(--rr-color-common-white);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: var(--rr-ff-heading);
+}
+[data-theme=light] .serv-1 .footer-list li{
+  color: var(--rr-color-heading-primary);
+  font-size: 24px;
+  font-weight: 520;
+  line-height: 1.5;
+  font-family: var(--rr-ff-heading);
+}
+.serv-1 .footer-list li:before {
+  background-image: none;
+  font-family: "Font Awesome 6 Pro";
+  font-size: 18px;
+  font-weight: 700;
+  content: "\f356";
+  color: var(--rr-color-text-body);
+  position: absolute;
+  top: 55%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.serv-1 .footer-list li:hover:before {
+  color: var(--rr-color-theme-primary);
+  left: 5px;
+}
+.serv-1 .footer-list {
+  list-style: none;
+}
+
 /*# sourceMappingURL=main.css.map */
 
 
