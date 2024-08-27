@@ -12666,6 +12666,10 @@ blockquote .content .author:before {
   display: block;
   margin-top: 20px;
 }
+.error-content .imggg {
+  width: 400px;
+  
+}
 
 /* !END: Error CSS */
 /**----------------------------------------
