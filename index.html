@@ -630,7 +630,7 @@
                             <input type="hidden" name="_autoresponse" value="your custom message">
                         
                             <div class="submit-btn">
-                                <button type="submit" id="submit" class="rr-primary-btn">Submit Message</button>
+                                <button type="submit" id="submit" onclick="myFunction()" class="rr-primary-btn">Submit Message</button>
                             </div>
                         </form>
                     </div>
@@ -651,7 +651,7 @@
                                     <a href="index.html"><img src="assets/img/logo/logo-2.png" alt="logo"></a>
                                 </div>
                             </div>
-                            <p class="mb-20">Centric aplications productize before front end vortals visualize front end is results and value added</p>
+                            <p class="mb-20">Efficiency, Expertise, Excellence, Your Complete MEP Solution</p>
                             <h4 class="title">WE ARE AVAILABLE <span>Mon-Sat: 09.00 am to 6.30 pm</span></h4>
                         </div>
                     </div>
@@ -720,6 +720,15 @@
             <div class="switcher-button-inner-left"></div>
             <div class="switcher-button-inner"></div>
         </div>
+        <script>
+            function myFunction() {
+            alert("Form submited , please wait");
+            var frm = document.getElementsByName('contact-form')[0];
+                frm.reset();
+               
+        }
+        </script>
+        
 
         <!-- JS here -->
         <script src="assets/js/vendor/jquary-3.6.0.min.js"></script>
